@@ -1,0 +1,225 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Inter');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url(websitepic.jpg);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.navbar{
+    width: 95%;
+    margin: -25px;
+    display: inline-block;
+    text-align:center;
+    align-items:center;
+    justify-content: space-between;
+    position: fixed;
+    transform: translateX(100px);
+}
+
+.logo {
+    width: 250px;
+    transform: translatey(30px);
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #f69f4c;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+button {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f69f4c;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+span {
+    background: #f69f4c;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+
+}
+
+.socialmedia ul{
+   position: absolute;
+   top: 90%;
+   left: 50%;
+   padding: 0;
+   margin: 0;
+   transform: translate(-50%, 30%);
+   display: flex;
+}
+
+.socialmedia ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.socialmedia ul li a{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.socialmedia ul li a:hover{
+    transform: translate(0, -10px);
+}
+
+ion-icon {
+    transform: translate(0, 2px);
+    font-size: 25px;
+    color: black;
+}
+
+ion-icon ul li a:hover {
+    color: #DC143C;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color: #f69f4c;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+    padding: 20px;
+}
+
+body{
+    overflow: hidden;
+}
+
+section h1 {
+    font-size:35px;
+}
+
+section p { 
+    font-size: 1.5rem;
+}
+
+section#welcome {
+    color: white;
+
+}
+section#aboutme {
+    background: url(background1.png) no-repeat center center/cover;
+}
+
+section#education {
+    background: url(background2.png) no-repeat center center/cover;
+}
+section#more {
+    background: url(background3.png) no-repeat center center/cover;
+}
+
+section#whatido {
+    background: url(background4.png) no-repeat center center/cover;
+}
+
+section#projects {
+    background: url(background1.png) no-repeat center center/cover;
+}
+
+section#mybusiness {
+    background: url(background2.png) no-repeat center center/cover;
+}
+
