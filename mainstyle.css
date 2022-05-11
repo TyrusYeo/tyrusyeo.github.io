@@ -28,7 +28,8 @@
 }
 
 .logo {
-    width: 250px;
+    width: 8%;
+    padding: 20px;
     transform: translatey(30px);
     cursor: pointer;
 }
