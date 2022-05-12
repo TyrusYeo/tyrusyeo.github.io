@@ -84,20 +84,6 @@
 
 }
 
-button {
-    width: 150px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #f69f4c;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-}
-
 span {
     background: #f69f4c;
     height: 100%;
@@ -108,15 +94,6 @@ span {
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
-}
-
-button:hover span{
-    width: 100%;
-}
-
-button:hover{
-    border: none;
-
 }
 
 .socialmedia ul{
