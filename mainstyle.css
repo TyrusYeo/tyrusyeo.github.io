@@ -5,12 +5,10 @@
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
+
 .container {
     width: 100%;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background: url(websitepic.jpg);
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -43,7 +41,7 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     text-transform: uppercase;
 
 }
@@ -69,7 +67,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: black;
 }
 
 .content h1{
@@ -128,7 +126,7 @@ footer .social li a:hover{
 }
 
 ion-icon {
-    transform: translate(0, 30px);
+    transform: translate(0, 2px);
     font-size: 32px;
     color: black;
 }
@@ -160,7 +158,18 @@ section {
 }
 
 body{
-    overflow: hidden;
+    background: linear-gradient(45deg, #d3d1d1,#f3c665, #7881f8);
+    animation: gradientbackground 10s alternate infinite;
+    background-size: 350% 350%;
+}
+
+@keyframes gradientbackground{
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
 }
 
 section h1 {
@@ -172,28 +181,7 @@ section p {
 }
 
 section#welcome {
-    color: white;
+    color: black;
 
 }
-section#aboutme {
-    background: url(background1.png) no-repeat center center/cover;
-}
 
-section#education {
-    background: url(background2.png) no-repeat center center/cover;
-}
-section#more {
-    background: url(background3.png) no-repeat center center/cover;
-}
-
-section#whatido {
-    background: url(background4.png) no-repeat center center/cover;
-}
-
-section#projects {
-    background: url(background1.png) no-repeat center center/cover;
-}
-
-section#mybusiness {
-    background: url(background2.png) no-repeat center center/cover;
-}
