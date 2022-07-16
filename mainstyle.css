@@ -32,7 +32,7 @@
 }
 
 .logo {
-    width: 8%;
+    width: 7%;
     padding: 20px;
     transform: translatey(30px);
     cursor: pointer;
@@ -185,17 +185,19 @@ section p {
 
 .text1 {
     font-family: neon-sans;  
-    animation: flicker 5s infinite alternate;
+    animation: flicker 4s infinite alternate;
+    animation-delay: 0.5s;
 }
 
 .text2 {
     font-family: neon-sans;  
-    animation: flicker 5s infinite linear;
+    animation: flicker 4s infinite alternate;
 }
 
 .text3 {
     font-family: neon-sans;  
-    animation: flicker 5s infinite alternate;
+    animation: flicker 3s infinite alternate;
+    animation-delay: 1s;
 }
 
 @keyframes flicker {
@@ -205,10 +207,10 @@ section p {
     41% {
         opacity: 0.8;
     }
-    42% {
+    43% {
         opacity: 1;
     }
-    44% {
+    47% {
         opacity: 0;
     }
 }
