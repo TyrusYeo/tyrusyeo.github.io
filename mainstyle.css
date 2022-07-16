@@ -90,10 +90,10 @@
 footer {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     width: 100%;
-    transform: translateY(190px);
+    transform: translateY(150px);
 }
 
 footer .social{
