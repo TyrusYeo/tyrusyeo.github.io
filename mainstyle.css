@@ -202,17 +202,6 @@ section p {
     animation-delay: 1s;
 }
 
-.typed-text {
-    color: white;
-}
-
-.cursor{
-    display: inline-block;
-    width: 3px;
-    background-color: black;
-    margin-left: 0.1rem;
-}
-
 @keyframes flicker {
     40% {
         opacity: 1;
@@ -231,4 +220,23 @@ section p {
     }
 }
 
+.typed-text {
+    color: white;
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {background-color: white;}
+    49% {background-color: white;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: white;}
+}
 
