@@ -153,8 +153,8 @@ section {
 }
 
 body{
-    background: linear-gradient(45deg, #cfcfcf,#647daf, #aa5858);
-    animation: gradientbackground 10s alternate infinite;
+    background: linear-gradient(45deg, #afaeae,#647daf, #aa5858);
+    animation: gradientbackground 15s alternate infinite;
     background-size: 350% 350%;
 }
 
@@ -202,6 +202,17 @@ section p {
     animation-delay: 1s;
 }
 
+.typed-text {
+    color: white;
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    margin-left: 0.1rem;
+}
+
 @keyframes flicker {
     40% {
         opacity: 1;
@@ -209,11 +220,14 @@ section p {
     41% {
         opacity: 0.8;
     }
-    43% {
+    42% {
         opacity: 1;
     }
-    47% {
+    43% {
         opacity: 0;
+    }
+    45% {
+        opacity: 1;
     }
 }
 
