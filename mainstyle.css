@@ -153,7 +153,7 @@ section {
 }
 
 body{
-    background: linear-gradient(45deg, #c5c3c3,#3d455c);
+    background: linear-gradient(45deg, #c5c3c3,#4D5F69);
     animation: gradientbackground 15s alternate infinite;
     background-size: 350% 350%;
 }
