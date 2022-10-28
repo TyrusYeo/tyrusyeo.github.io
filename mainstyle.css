@@ -1,4 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Inter');
+
 @font-face {
     font-family: "neon-sans";
     src: url("./NeonSans.ttf");
@@ -18,16 +19,14 @@
     padding-right: 10%;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
 }
 
-.navbar{
+.navbar {
     width: 95%;
     margin: -25px;
     display: inline-block;
-    text-align:center;
-    align-items:center;
+    text-align: center;
+    align-items: center;
     justify-content: space-between;
     position: fixed;
     transform: translateX(100px);
@@ -40,21 +39,21 @@
     cursor: pointer;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     margin: 0 20px;
     position: relative;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 
 }
 
-.navbar ul li::after{
+.navbar ul li::after {
     content: '';
     height: 3px;
     width: 0%;
@@ -69,7 +68,7 @@
     width: 100%;
 }
 
-.content{
+.content {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -78,12 +77,12 @@
     color: black;
 }
 
-.content h1{
+.content h1 {
     font-size: 60px;
     margin-top: 80px;
 }
 
-.content p{
+.content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
@@ -98,7 +97,7 @@ footer {
     transform: translateY(150px);
 }
 
-footer .social{
+footer .social {
     position: relative;
     display: flex;
     justify-content: center;
@@ -106,17 +105,17 @@ footer .social{
     flex-wrap: wrap;
 }
 
-footer .social li{
+footer .social li {
     list-style-type: none;
     margin: 10px;
 }
 
-footer .social li a{
+footer .social li a {
     display: inline-block;
     transition: 0.5s;
 }
 
-footer .social li a:hover{
+footer .social li a:hover {
     transform: translateY(-10px);
 }
 
@@ -132,7 +131,7 @@ a:link {
 }
 
 a:visited {
-    color:black;
+    color: black;
 }
 
 a:hover {
@@ -152,52 +151,53 @@ section {
     padding: 20px;
 }
 
-body{
-    background: linear-gradient(45deg, #c5c3c3,#4D5F69);
+body {
+    background: linear-gradient(45deg, #c5c3c3, #4D5F69);
     animation: gradientbackground 15s alternate infinite;
     background-size: 350% 350%;
 }
 
-@keyframes gradientbackground{
+@keyframes gradientbackground {
     0% {
         background-position: 0%;
     }
+
     100% {
         background-position: 100%;
     }
 }
 
 section h1 {
-    font-size:35px;
+    font-size: 35px;
 }
 
-section p { 
+section p {
     font-size: 1.5rem;
 }
 
 .text {
     width: 40%;
     font-size: 8.5em;
-    font-family: neon-sans; 
+    font-family: neon-sans;
     color: white;
     white-space: nowrap;
-    text-shadow: 0 0 0 transparent, 0 0 10px rgb(102, 102, 102), 0 0 20px black, 0 0 40px black, 
-    0 0 300px black
+    text-shadow: 0 0 0 transparent, 0 0 10px rgb(102, 102, 102), 0 0 20px black, 0 0 40px black,
+        0 0 300px black
 }
 
 .text1 {
-    font-family: neon-sans;  
+    font-family: neon-sans;
     animation: flicker 4s infinite alternate;
     animation-delay: 0.5s;
 }
 
 .text2 {
-    font-family: neon-sans;  
+    font-family: neon-sans;
     animation: flicker 4s infinite alternate;
 }
 
 .text3 {
-    font-family: neon-sans;  
+    font-family: neon-sans;
     animation: flicker 3s infinite alternate;
     animation-delay: 1s;
 }
@@ -206,15 +206,19 @@ section p {
     40% {
         opacity: 1;
     }
+
     41% {
         opacity: 0.8;
     }
+
     42% {
         opacity: 1;
     }
+
     43% {
         opacity: 0;
     }
+
     45% {
         opacity: 1;
     }
@@ -224,7 +228,7 @@ section p {
     color: white;
 }
 
-.cursor{
+.cursor {
     display: inline-block;
     width: 3px;
     background-color: black;
@@ -233,10 +237,23 @@ section p {
 }
 
 @keyframes blink {
-    0% {background-color: black;}
-    49% {background-color: black;}
-    50% {background-color: transparent;}
-    99% {background-color: transparent;}
-    100% {background-color: black;}
-}
+    0% {
+        background-color: black;
+    }
 
+    49% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
