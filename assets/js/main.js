@@ -1,9 +1,9 @@
 
 const typedtextspan = document.querySelector(".typed-text");
 
-const textarray = ["coding", "napping", "attending office hours", "working out", "leetcoding",
-"upgrading my gaming PC", "listening to John Mayer", "cooking", "playing pickup bball", "playing guitar", 
-"reading 'The Thank You Economy' by Gary V"];
+const textarray = ["coding", "working out", "attending office hours", "breaking codebases",
+"listening to John Mayer", "cooking", "playing bball", "playing guitar", 
+"reading tweets"];
 
 const typingDelay = 200;
 const erasingDelay = 100;
