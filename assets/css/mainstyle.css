@@ -40,6 +40,7 @@
     padding: 20px;
     transform: translatey(30px);
     cursor: pointer;
+    margin-right: auto;
 }
 
 .navbar ul li {

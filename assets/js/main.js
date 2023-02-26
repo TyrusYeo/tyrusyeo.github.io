@@ -1,11 +1,11 @@
 
 const typedtextspan = document.querySelector(".typed-text");
 
-const textarray = ["coding", "working out", "attending office hours", "breaking codebases",
+const textarray = ["learning to day trade", "cooking chinese food", "attending office hours", "breaking codebases",
 "listening to John Mayer", "cooking", "playing bball", "playing guitar", 
 "reading tweets"];
 
-const typingDelay = 200;
+const typingDelay = 150;
 const erasingDelay = 100;
 const newTextDelay = 2000;
 
