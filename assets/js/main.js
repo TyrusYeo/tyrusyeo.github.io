@@ -1,9 +1,9 @@
 
 const typedtextspan = document.querySelector(".typed-text");
 
-const textarray = ["learning to day trade", "cooking chinese food", "attending office hours", "breaking codebases",
-"listening to John Mayer", "cooking", "playing bball", "playing guitar", 
-"reading tweets"];
+const textarray = ["changing how college students hangout ->", "building joinpush.app", "learning to cook chinese food", 
+"breaking Prod at Zelta.ai", "playing bball", "building guitars", 
+"shitposting on twitter"];
 
 const typingDelay = 150;
 const erasingDelay = 100;

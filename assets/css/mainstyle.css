@@ -17,18 +17,17 @@
     height: 100vh;
     padding-left: 20%;
     padding-right: 20%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     background-color: #000000;
 }
 
 .navbar {
     width: 80%;
-    margin: -15px;
-    padding-left: 14%;
+    margin: 50px;
     display: inline-block;
-    text-align: left;
-    align-items: left;
+    text-align: center;
+    align-items: center;
     justify-content: space-between;
     position: fixed;
     transform: translateX(100px);
@@ -97,7 +96,7 @@
 footer {
     position: relative;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 100%;
     transform: translateY(150px);
@@ -148,7 +147,7 @@ a:hover {
 section {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     text-align: left;
     width: 100%;
@@ -162,8 +161,9 @@ body {
 }
 
 section h1 {
-    font-size: 2.7rem;
-    color:#8892b4;
+    font-size: 5rem;
+    color:#ffffff;
+    text-align: center;
 }
 
 section p {
@@ -173,7 +173,7 @@ section p {
 
 .text {
     width: 40%;
-    font-size: 8.5em;
+    font-size: 3em;
     font-family: neon-sans;
     color: white;
     white-space: nowrap;
